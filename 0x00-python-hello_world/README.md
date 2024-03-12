@@ -600,6 +600,9 @@ Solving a problem is already a big win! but finding the best and optimal way to 
 -   Directory: `0x00-python-hello_world`
 -   File: `10-check_cycle.c, lists.h`
 
+------------------------------------------------------
+**Advanced:**
+
 ### 11\. Hello, write
 
 Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
