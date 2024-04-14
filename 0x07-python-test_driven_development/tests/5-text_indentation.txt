@@ -133,3 +133,4 @@ Test number:
     Traceback (most recent call last):
     ...
     TypeError: text must be a string
+	
