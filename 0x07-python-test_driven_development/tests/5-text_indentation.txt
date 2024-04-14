@@ -1,14 +1,15 @@
+
 ================================
 How to Use 5-text_indentation.py
 ================================
 
-This module defines a text-indentation function `text_indentation(text)`.
+This module defines a text-indentation function ``text_indentation(text)``.
 
 Usage
 =====
 
-Text is printed with two new lines after each of the characters `.`, `?`,
-and `:`.
+Text is printed with two new lines after each of the characters ``.``, ``?``,
+and ``:``.
 
 ::
 
@@ -45,7 +46,7 @@ Similarly, no spaces are printed at the end of each printed line.
     This is messy.
     <BLANKLINE>
 
-New lines are only printed for the characters `.`, `?`, and `:` -
+New lines are only printed for the characters ``.``, ``?``, and ``:`` -
 text not ending with one of these characters is not ended with a new line.
 
 ::
@@ -125,7 +126,7 @@ A combo example:
 Invalid Text
 ============
 
-The paramter `text` must be a string. Otherwise, a TypeError is raised.
+The paramter ``text`` must be a string. Otherwise, a TypeError is raised.
 
 ::
 
