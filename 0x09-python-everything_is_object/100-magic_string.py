@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-def magic_string(l=None):
-    if l is None:
-        l = []
-    l += ["BestSchool"]
-    return ", ".join(l)
+def magic_string():
+	magic_string.cout = getattr(magic_string, 'count', 0) + 1
+	return ", ".join(["BestSchool" for i in range(magic_string.count)])
+
