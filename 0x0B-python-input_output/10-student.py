@@ -1,37 +1,45 @@
 #!/usr/bin/python3
-"""
-    Module for class Student
-"""
+"""Module defining the class Student based on 9-student.py"""
 
 
 class Student:
     """
-        A class students that defines a student by:
-        Attributes:
-            first_name (str): name of student.
-            last_name (str): name of student.
-            age (int): age of student.
-        Methods:
-            __init__ - initializes the Student instance.
-            to_json - retrieves dictionary repr of Student instance.
+    Class that defines properties of student.
+
+    Attributes:
+        first_name (str): first name of student.
+        last_name (int): last name of student.
+        age (int): age of student.
     """
     def __init__(self, first_name, last_name, age):
-        """
-            Initialises Student instance.
+        """Creates new instances of Student.
+
+        Args:
+            first_name (str): first name of student.
+            last_name (int): last name of student.
+            age (int): age of student.
         """
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
 
-    def to_json(self, attr=None):
-        """
-            retrieves a dictionary representation of Student.
-            Args:
-                attr (list): attribute names that are to be retrieved.
-        """
+    def to_json(self, attrs=None):
+        """Retrieves a dictionary representation of a Student instance.
 
-        if attr is not None:
-            res = {k: self.__dict__[k] for k in self.__dict__.keys() & attr}
-            return res
-        else:
+        If attrs is a list of strings, only attribute names contained in,
+        this list must be retrieved.
+        Otherwise, all attributes must be retrieved.
+
+        Returns:
+            dict: dictionary representation.
+        """
+        if attrs is None:
             return self.__dict__
+
+        new_dict = {}
+        for item in attrs:
+            try:
+                new_dict[item] = self.__dict__[item]
+            except Exception:
+                pass
+        return new_dict
