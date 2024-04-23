@@ -1,11 +1,7 @@
 0x04. Python - More Data Structures: Set, Dictionary
 ====================================================
 
--   By Guillaume
--   Weight: 1
--   Prpject will start Mar 20, 2024, must end by Mar 21, 2024
--   Checker was released at Mar 20, 2024 9:00 PM
--   An auto review will be launched at the deadline.
+
 
 Resources
 ---------
