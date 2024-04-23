@@ -63,7 +63,7 @@ Requirements
 Tasks
 -----
 
-mandatory
+**mandatory**
 
 -------------------------------------------------------
 ### 0\. Print a list of integers
