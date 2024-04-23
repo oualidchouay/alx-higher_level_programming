@@ -363,7 +363,11 @@ guillaume@ubuntu:~/py/0x00$
 -   GitHub repository: `alx-higher_level_programming`
 -   Directory: `0x00-python-hello_world`
 -   File: `7-edges.py`
+--------------------------------------------------------------------------------
 
+
+
+--------------------------------------------------------------------------------
 ### 8\. Create a new sentence
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py) to print `object-oriented programming with Python`, followed by a new line.
