@@ -1,7 +1,11 @@
-# Higher-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming
+# Higher-level programming - Python
 
-## Description
-High-level Programming Language In computer science, a high-level programming language is a programming language with strong abstraction from the details of the computer. In contrast to low-level programming languages, it may use natural language elements, be easier to use, or may automate (or even hide entirely) significant areas of computing systems (e.g. memory management), making the process of developing a program simpler and more understandable than when using a lower-level language. The amount of abstraction provided defines how "high-level" a programming language is.
+<h1 align="center"><img  src="https://rajivpandit.files.wordpress.com/2013/02/python.png" width="600"></h1>
+
+This repository contains programs written for the Higher-level programming track at the ALX Software Engineering Program. In these projects, I learnt Python & SQL, and I also made use of concepts learnt.
+Simultaneously, I continued to reinforce and expand my skills in C and shell scripting.
+
+
 
 ## Structure
 
@@ -18,6 +22,12 @@ High-level Programming Language In computer science, a high-level programming la
 * [0x0A. python - inheritance](./0x0A-python-inheritance/)
 * [0x0B. python - input_output](./0x0B-python-input_output/)
 * [0x0C. python - almost_a_circle](./0x0C-python-almost_a_circle/)
+
+
+## Author
+
+- [oualidchouay](https://github.com/oualidchouay)
+
 
 ## Aknowledgements
 
