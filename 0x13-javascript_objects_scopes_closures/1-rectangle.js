@@ -4,7 +4,7 @@ class Rectangle {
 	  this.width = w;
 	  this.height = h;
 	}
-  }
+}
 
-  module.exports = Rectangle;
-  
+// Change from CommonJS to ES Module export
+export default Rectangle;
