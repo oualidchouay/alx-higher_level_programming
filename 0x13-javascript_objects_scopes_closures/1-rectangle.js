@@ -1,7 +1,7 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 export default class Rectangle {
-	constructor (w, h) {
-	  this.width = w;
-	  this.height = h;
-	}
-  };
+    constructor(w, h) {
+        this.width = w;
+        this.height = h;
+    }
+};
