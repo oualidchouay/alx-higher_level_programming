@@ -12,4 +12,3 @@ VALUES ("California"),
     ("Texas"),
     ("New York"),
     ("Nevada");
-	
